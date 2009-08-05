@@ -1,12 +1,12 @@
 Summary:	Data recovery tool
 Summary(pl.UTF-8):	Narzędzie do odzyskiwania danych
 Name:		safecopy
-Version:	1.4
+Version:	1.5
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/safecopy/%{name}-%{version}.tar.gz
-# Source0-md5:	a7bc9f8d727cb1815fed27af4c560dd0
+# Source0-md5:	8b007de8d17c054593cdc0ade4516f08
 URL:		http://safecopy.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -44,6 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog NEWS README specification.txt webpage/*
+%doc AUTHORS ChangeLog NEWS README specification.txt
 %attr(755,root,root) %{_bindir}/safecopy
 %{_mandir}/man1/safecopy.1*
