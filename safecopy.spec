@@ -1,12 +1,12 @@
 Summary:	Data recovery tool
 Summary(pl.UTF-8):	Narzędzie do odzyskiwania danych
 Name:		safecopy
-Version:	1.5
+Version:	1.6
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
-Source0:	http://dl.sourceforge.net/safecopy/%{name}-%{version}.tar.gz
-# Source0-md5:	8b007de8d17c054593cdc0ade4516f08
+Source0:	http://downloads.sourceforge.net/safecopy/%{name}-%{version}.tar.gz
+# Source0-md5:	f07433c4a7b8cb1d0c5a57d42007d1fe
 URL:		http://safecopy.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -18,8 +18,8 @@ as possible from a seekable but problematic (i.e., damaged sectors)
 source like floppy drives, hard disk partitions, CDs, etc.
 
 %description -l pl.UTF-8
-safecopy jest narzędziem do odzyskiwania danych, które próbuje
-wydobyć tak dużo danych, jak to możliwe z przeszukiwalnych lecz
+safecopy jest narzędziem do odzyskiwania danych, które próbuje wydobyć
+tak dużo danych, jak to możliwe z przeszukiwalnych lecz
 problematycznych (np. z uszkodzonymi sektorami) źródeł, takich jak
 dyskietki, partycje dysków, płyty CD itp.
 
